@@ -62,3 +62,7 @@ header {
     height: 1px;
     overflow: hidden;
 }
+
+main {
+    padding: 1em;
+}
