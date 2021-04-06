@@ -23,6 +23,11 @@ header {
     list-style: none;
 }
 
+.nav-link {
+    color:black;
+    text-decoration: none;
+}
+
 .nav-link-li {
     display: inline-block;
     padding-left: 0.5em;
@@ -30,6 +35,11 @@ header {
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: x-large;
+}
+
+.nav-link-li:hover {
+    background-color: lightskyblue;
+    font-weight: bold;
 }
 
 .nav-link-selected {
