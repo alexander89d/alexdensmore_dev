@@ -1,0 +1,56 @@
+<header>
+    <div id="website-title">Alex Densmore's Software Development Portfolio</div>
+    <nav id="main-menu" aria-labelledby="main-menu-label">
+        <h2 class="sr-only" id="main-menu-label">Main Menu</h2>
+        <ul>
+            <a class="nav-link" href="../">
+                <li class="nav-link-li">
+                    Home
+                </li>
+            </a>
+            <a class="nav-link" href="../about">
+                <li class="nav-link-li">
+                    About Me
+                </li>
+            </a>
+            <li class="nav-link-selected">
+                <span class="sr-only">Current Folder: </span>
+                Projects
+            </li>
+            <a class="nav-link" href="../contact">
+                <li class="nav-link-li">
+                    Contact
+                </li>
+            </a>
+        </ul>
+    </nav>
+    <nav id="proj-menu" aria-labelledby="proj-menu-label">
+        <h2 class="sr-only" id="proj-menu-label">Projects Submenu</h2>
+        <ul>
+            <!--#if expr="${projPage} = Overview" -->
+                <li class="proj-nav-link-selected">
+                    <span class="sr-only">Current Page: </span>
+                    Projects Overview
+                </li>
+            <!--#else -->
+                <a class="proj-nav-link" href="./">
+                    <li class="proj-nav-link-li">
+                        Projects Overview
+                    </li>
+                </a>
+            <!--#endif -->
+            <!--#if expr="${projPage} = ChurchAccessibility" -->
+                <li class="proj-nav-link-selected">
+                    <span class="sr-only">Current Page: </span>
+                    Church Accessibility Website
+                </li>
+            <!--#else -->
+                <a class="proj-nav-link" href="church-accessibility">
+                    <li class="proj-nav-link-li">
+                        Church Accessibility Website
+                    </li>
+                </a>
+            <!--#endif --> 
+        </ul>
+    </nav>
+</header>
