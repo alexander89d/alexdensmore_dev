@@ -1,0 +1,49 @@
+<header>
+    <div id="website-title">Alex Densmore's Software Development Portfolio</div>
+    <nav id="main-menu" aria-labelledby="main-menu-label">
+        <h2 class="sr-only" id="main-menu-label">Main Menu</h2>
+        <ul>
+            <!--#if expr="${currentPage} = Home" -->
+                <li class="nav-link-selected">
+                    <span class="sr-only">Current Page: </span>
+                    Home
+                </li>
+            <!--#else -->
+                <a class="nav-link" href="/">    
+                    <li class="nav-link-li">
+                        Home
+                    </li>
+                </a>
+            <!--#endif -->
+            <!--#if expr="${currentPage} = About" -->
+                <li class="nav-link-selected">
+                    <span class="sr-only">Current Page: </span>
+                    About Me
+                </li>
+            <!--#else -->
+                <a class="nav-link" href="about">
+                    <li class="nav-link-li">
+                        About Me
+                    </li>
+                </a>
+            <!--#endif --> 
+            <a class="nav-link" href="projects/">
+                <li class="nav-link-li">
+                    Projects
+                </li>
+            </a>
+            <!--#if expr="${currentPage} = Contact" -->
+                <li class="nav-link-selected">
+                    <span class="sr-only">Current Page: </span>
+                    Contact
+                </li>
+            <!--#else -->
+                <a class="nav-link" href="contact">
+                    <li class="nav-link-li">
+                        Contact
+                    </li>
+                </a>
+            <!--#endif -->
+        </ul>
+    </nav>
+</header>
