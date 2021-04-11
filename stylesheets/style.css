@@ -9,6 +9,7 @@ header {
 }
 
 #website-title {
+    font-weight: bolder;
     text-align: center;
     color: greenyellow;
     background-color: black;
