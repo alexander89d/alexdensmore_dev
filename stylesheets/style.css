@@ -103,3 +103,15 @@ header {
 main {
     padding: 1em;
 }
+
+h1 {
+    padding-bottom: 0.5em;
+}
+
+/* code element formatting adapted from suggestions at https://www.w3schools.com/tags/tag_code.asp */
+code {
+    font-family: Consolas,"courier new";
+    color: darkred;
+    background-color: #f1f1f1;
+    padding: 2px;
+}
