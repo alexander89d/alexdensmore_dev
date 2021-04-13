@@ -108,6 +108,20 @@ h1 {
     padding-bottom: 0.5em;
 }
 
+.centered-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 20%;
+}
+
+.float-right {
+    float: right;
+    width: 20%;
+    margin: 0.25em;
+}
+
 /* code element formatting adapted from suggestions at https://www.w3schools.com/tags/tag_code.asp */
 code {
     font-family: Consolas,"courier new";
