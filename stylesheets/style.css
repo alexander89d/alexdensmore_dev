@@ -105,7 +105,12 @@ main {
 }
 
 h1 {
-    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+main h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .centered-img {
@@ -119,7 +124,7 @@ h1 {
 .float-right {
     float: right;
     width: 20%;
-    margin: 0.25em;
+    margin: 0.5em;
 }
 
 /* code element formatting adapted from suggestions at https://www.w3schools.com/tags/tag_code.asp */
