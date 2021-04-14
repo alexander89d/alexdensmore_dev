@@ -117,6 +117,10 @@ main h2 {
     margin-bottom: 0.5em;
 }
 
+dd {
+    margin-bottom: 0.5em;
+}
+
 .centered-img {
     display: block;
     margin-left: auto;
