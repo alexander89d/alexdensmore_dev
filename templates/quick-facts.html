@@ -1,0 +1,17 @@
+<section class="grey-box" aria-labelledby="qf-heading">
+    <h2 id="qf-heading">Quick Facts</h2>
+    <dl>
+        <dt>Date Completed</dt>
+        <dd><!--#echo var="dateCompleted" --></dd>
+        <dt>Context</dt>
+        <dd><!--#echo var="context" --></dd>
+        <dt>Individual or Group?</dt>
+        <dd><!--#echo var="individualOrGroup" --></dd>
+        <dt>Language(s)</dt>
+        <dd><!--#echo var="languages" --></dd>
+        <!--#if expr="${GitHub}" -->
+            <dt>GitHub Repository</dt>
+            <dd><a href="<!--#echo var='GitHub' -->" target="_blank"><!--#echo var="GitHub" --></a></dd>
+        <!--#endif -->
+    </dl>
+</section>

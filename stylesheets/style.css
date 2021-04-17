@@ -117,6 +117,10 @@ main h2 {
     margin-bottom: 0.5em;
 }
 
+dt {
+    font-weight: bold;
+}
+
 dd {
     margin-bottom: 0.5em;
 }
@@ -141,4 +145,13 @@ code {
     color: darkred;
     background-color: #f1f1f1;
     padding: 2px;
+}
+
+.grey-box {
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: #f2f2f2;
 }
