@@ -5,6 +5,10 @@
         <dd><!--#echo var="dateCompleted" --></dd>
         <dt>Context</dt>
         <dd><!--#echo var="context" --></dd>
+        <!--#if expr="${courseName}" -->
+            <dt>Course Name</dt>
+            <dd><!--#echo var="courseName" --></dd>
+        <!--#endif -->
         <dt>Individual or Group?</dt>
         <dd><!--#echo var="individualOrGroup" --></dd>
         <dt>Language(s)</dt>
@@ -12,6 +16,22 @@
         <!--#if expr="${GitHub}" -->
             <dt>GitHub Repository</dt>
             <dd><a href="<!--#echo var='GitHub' -->" target="_blank"><!--#echo var="GitHub" --></a></dd>
+        <!--#endif -->
+        <!--#if expr="${liveSite}" -->
+            <dt>Live Project Website</dt>
+            <dd><a href="<!--#echo var='liveSite' -->" target="_blank"><!--#echo var="liveSite" --></a></dd>
+        <!--#endif -->
+        <!--#if expr="${prDescription1}" -->
+            <dt>Pull Request 1 Description</dt>
+            <dd><!--#echo var="prDescription1" --> </dd>
+            <dt>Pull Request 1 URL</dt>
+            <dd><a href="<!--#echo var='prURL1' -->" target="_blank"><!--#echo var="prURL1" --></a></dd>
+        <!--#endif -->
+        <!--#if expr="${prDescription2}" -->
+            <dt>Pull Request 2 Description</dt>
+            <dd><!--#echo var="prDescription2" --></dd>
+            <dt>Pull Request 2 URL</dt>
+            <dd><a href="<!--#echo var='prURL2' -->" target="_blank"><!--#echo var="prURL2" --></a></dd>
         <!--#endif -->
     </dl>
 </section>
