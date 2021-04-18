@@ -153,3 +153,11 @@ code {
     border-color: black;
     background-color: #f2f2f2;
 }
+
+button {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    margin-bottom: 1em;
+}

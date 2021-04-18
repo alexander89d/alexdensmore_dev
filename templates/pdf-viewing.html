@@ -1,0 +1,16 @@
+<button id="view-inline">Show Documentation Below</button>
+<button id="download">View in New Tab / Download</button>
+<!-- iframe "hidden" attribute is toggled with view-inline button -->
+<iframe 
+    id="pdf-frame"
+    hidden="true"
+    src="https://drive.google.com/viewerng/viewer?url=https://alexdensmore.dev/projects/documentation/<!--#echo var='pdfFilename' -->&embedded=true" 
+    width="100%"
+    height="500em"
+></iframe>
+<!-- hidden anchor used to send PDF URL to script -->
+<a
+    id="pdf-url"
+    hidden="true"
+    href="https://alexdensmore.dev/projects/documentation/<!--#echo var='pdfFilename' -->"
+></a>
