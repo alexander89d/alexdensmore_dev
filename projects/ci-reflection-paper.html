@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>alexdensmore.dev - Projects - Continuous Integration Reflection Paper</title>
+        <link rel="canonical" href="https://alexdensmore.dev/projects/ci-reflection-paper">
+        <link rel="stylesheet" href="../stylesheets/style.css">
+    </head>
+    <body>
+        <!--#set var="projPage" value="CIReflectionPaper" -->
+        <!--#include virtual="/templates/proj-level-header.html" -->
+        <main>
+            <h1>Continuous Integration Reflection Paper</h1>
+            <p>
+                This is my individual reflection paper on a group project that involved the 
+                Continuous Integration paradigm using 
+                <a href="https://github.com/features/actions" target="_blank">GitHub Actions</a>. 
+                <strong>While we are not permitted to share the source code from this project publicly, 
+                the instructor of CS 362 (Software Engineering II) has granted students explicit 
+                permission to post their reflection papers publicly for use in professional 
+                portfolios.</strong>
+                Each student in our group of 3 was responsible for implementing 1 of 3 specified 
+                functions and then writing tests for them using Python’s 
+                <a href="https://docs.python.org/3/library/unittest.html" target="_blank">unittest</a> 
+                module. We were required to make the 'master' branch protected where all potential 
+                merges had to be submitted as pull requests and reviewed and approved by both 
+                other teammates. We were also required to have GitHub Actions check all pull 
+                requests against 
+                <a href="https://flake8.pycqa.org/en/latest/" target="_blank">flake8</a> linting 
+                standards and all tests implemented up to that point. More contextual information about 
+                what specific functions we were required to implement is provided below the following 
+                "Quick Facts" section. 
+            </p>
+            <!--#set var="dateCompleted" value="June 2020" -->
+            <!--#set var="context" value="Oregon State University Course Project" -->
+            <!--#set var="courseName" value="Software Engineering II" -->
+            <!--#set var="individualOrGroup" value="Individual Reflection Paper on Group Coding Project" -->
+            <!--#set var="languages" value="Python (group project portion, which is not allowed to be posted publicly)" -->
+            <!--#include virtual="/templates/quick-facts.html" -->
+            <h2>Additional Details about Function Requirements</h2>
+            <p>
+                Each member of the group of 3 picked 1 of 3 functions and the related unit tests 
+                to implement. These functions all implemented already existing features of Python and 
+                its libraries (and could not use various built-in keywords and libraries that would 
+                make their implementation trivial). 
+                I was responsible for writing and testing a function that converts strings 
+                into base-10 numbers. The strings can represent base-10 integers, base-10 
+                floating-point numbers, or hexadecimal integers (which must be preceded by '0x'). 
+                One of my teammates wrote a function that takes the number of seconds since the epoch 
+                (January 1, 1970) and converts it to a date in MM-DD-YYYY format, taking leap years 
+                into account. My other teammate implemented a function which takes an integer 
+                and returns its hexadecimal equivalent as a string in either big or little-endian 
+                format (depending on the value of the 'endian' argument passed in by the user). 
+                These low-level coding exercises that did not allow the use of many built-in 
+                convenience features of Python were meant to make us focus on thorough testing 
+                of the functions’ various nuances.
+            </p>
+            <h2>Reflection Paper Layout</h2>
+            <p>
+                In the paper below, I reflect on my experience with other team projects in my 
+                Computer Science degree program and then specifically on this Continuous Integration 
+                project. As per assignment instructions, 
+                the paper is divided into the following three sections:
+            </p>
+            <ol>
+                <li>Description of Previous Team Projects</li>
+                <li>Working with Continuous Integration</li>
+                <li>Lessons for the Future</li>
+            </ol>
+            <h2>Reflection Paper PDF File</h2>
+            <!--#set var="pdfFilename" value="ci-reflection-paper.pdf" -->
+            <!--#include virtual="/templates/pdf-viewing.html" -->
+        </main>
+        <script src="/scripts/pdf-viewer-buttons.js"></script>
+    </body>
+</html>

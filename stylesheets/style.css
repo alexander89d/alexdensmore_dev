@@ -123,6 +123,10 @@ dd {
     margin-bottom: 0.5em;
 }
 
+ol {
+    margin-left: 1em;;
+}
+
 .centered-img {
     display: block;
     margin-left: auto;
