@@ -17,6 +17,10 @@
             <dt>GitHub Repository</dt>
             <dd><a href="<!--#echo var='GitHub' -->" target="_blank"><!--#echo var="GitHub" --></a></dd>
         <!--#endif -->
+        <!--#if expr="${commitHistory}" -->
+            <dt>GitHub Commit History (for determining who contributed what code)</dt>
+            <dd><a href="<!--#echo var='commitHistory' -->" target="_blank"><!--#echo var="commitHistory" --></a></dd>
+        <!--#endif -->
         <!--#if expr="${liveSite}" -->
             <dt>Live Project Website</dt>
             <dd><a href="<!--#echo var='liveSite' -->" target="_blank"><!--#echo var="liveSite" --></a></dd>
