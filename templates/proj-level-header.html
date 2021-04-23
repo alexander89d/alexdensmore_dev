@@ -164,6 +164,18 @@
                     </li>
                 </a>
             <!--#endif -->
+            <!--#if expr="${projPage} = Portfolio" -->
+                <li class="proj-nav-link-selected">
+                    <span class="sr-only">Current Page: </span>
+                    This Portfolio Website
+                </li>
+            <!--#else -->
+                <a class="proj-nav-link" href="portfolio">
+                    <li class="proj-nav-link-li">
+                        This Portfolio Website
+                    </li>
+                </a>
+            <!--#endif -->
         </ul>
     </nav>
 </header>
