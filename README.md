@@ -4,7 +4,7 @@ This repository contains the source code for my personal website that I have cre
 
 The website is coded in HTML, CSS, and JavaScript. In addition to containing a sampling of multiple projects I have completed (all of which I have been given permission to post publicly when necessary), it has general information about me, contact information, and an accessibility policy. 
 
-The live website can be accessed at [alexdensmore.dev](alexdensmore.dev).
+The live website can be accessed at [https://alexdensmore.dev](https://alexdensmore.dev).
 
 ## Reflections on What I Have Learned Creating This Website
 
